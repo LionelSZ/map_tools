@@ -3,21 +3,14 @@
     <div id="map"></div>
 
     <!-- 图层管理组件 -->
-    <LayerControl 
-      :current-style="currentMapStyle"
-      @change-basemap="changeBaseMap"
-    />
+    <LayerControl :current-style="currentMapStyle" @change-basemap="changeBaseMap" />
 
     <div class="controls-overlay">
       <h2>{{ t('locationFinder') }}</h2>
 
       <div class="input-group">
         <label for="coords">{{ t('coordinates') }}</label>
-        <textarea 
-          id="coords" 
-          v-model="coordsText"
-          :placeholder="t('coordsPlaceholder')"
-        ></textarea>
+        <textarea id="coords" v-model="coordsText" :placeholder="t('coordsPlaceholder')"></textarea>
         <div class="info-msg">{{ t('clickMapTip') }}</div>
       </div>
 
@@ -82,7 +75,7 @@ const initMap = () => {
       markers.push(marker)
 
       const newCoord = `${lng.toFixed(6)}, ${lat.toFixed(6)}`
-      
+
       if (coordsText.value.trim()) {
         coordsText.value = coordsText.value + '\n' + newCoord
       } else {
@@ -181,11 +174,11 @@ const clearMarkers = () => {
 
 const changeBaseMap = (styleId) => {
   if (!map) return
-  
+
   currentMapStyle.value = styleId
   const styleUrl = `mapbox://styles/mapbox/${styleId}`
   map.setStyle(styleUrl)
-  
+
   // 重新添加标记点（切换样式后需要重新添加）
   map.once('style.load', () => {
     markers.forEach(marker => marker.addTo(map))
@@ -324,16 +317,16 @@ button.secondary:hover {
     max-width: calc(100vw - 20px);
     padding: 15px;
   }
-  
+
   h2 {
     font-size: 16px;
   }
-  
+
   .input-group textarea {
     min-height: 60px;
     font-size: 13px;
   }
-  
+
   button {
     padding: 8px;
     font-size: 14px;
@@ -344,14 +337,13 @@ button.secondary:hover {
   .controls-overlay {
     max-height: calc(100vh - 100px);
   }
-  
+
   .button-group {
     flex-direction: column;
   }
-  
+
   button {
     width: 100%;
   }
 }
 </style>
-
