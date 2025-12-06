@@ -1,0 +1,10 @@
+name = "maptools"
+compatibility_date = "2025-12-07"
+
+# 静态文件托管目录
+[site
+]
+bucket = "./dist"
+entry-point = "."
+
+workers_dev = true
