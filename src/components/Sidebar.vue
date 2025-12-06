@@ -13,9 +13,25 @@
         <span>🗺️</span> <span>{{ t('geojsonViewer') }}</span>
       </router-link>
 
-      <div class="nav-item" @click="showMoreTools">
-        <span>🔧</span> <span>{{ t('moreTools') }}</span>
-      </div>
+      <router-link to="/measurement" class="nav-item" active-class="active" @click="handleNavClick">
+        <span>📏</span> <span>{{ t('measurementTool') }}</span>
+      </router-link>
+
+      <router-link to="/query" class="nav-item" active-class="active" @click="handleNavClick">
+        <span>🔍</span> <span>{{ t('queryTool') }}</span>
+      </router-link>
+
+      <router-link to="/edit" class="nav-item" active-class="active" @click="handleNavClick">
+        <span>✏️</span> <span>{{ t('editTool') }}</span>
+      </router-link>
+
+      <router-link to="/coordinate-converter" class="nav-item" active-class="active" @click="handleNavClick">
+        <span>🔄</span> <span>{{ t('coordinateConverter') }}</span>
+      </router-link>
+
+      <router-link to="/geocoder" class="nav-item" active-class="active" @click="handleNavClick">
+        <span>🌍</span> <span>{{ t('geocoder') }}</span>
+      </router-link>
     </div>
 
     <!-- 语言切换器 -->

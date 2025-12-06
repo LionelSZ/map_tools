@@ -1,0 +1,505 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "东方明珠",
+                "name_en": "Oriental Pearl Tower",
+                "type": "景点",
+                "address": "上海市浦东新区陆家嘴世纪大道1号",
+                "rating": 4.5,
+                "opening_hours": "08:00-21:30",
+                "price": 180,
+                "description": "上海地标建筑"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.499809,
+                    31.239666
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "外滩",
+                "name_en": "The Bund",
+                "type": "景点",
+                "address": "上海市黄浦区中山东一路",
+                "rating": 4.7,
+                "opening_hours": "全天",
+                "price": 0,
+                "description": "上海最著名的滨江景观带"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.490317,
+                    31.239889
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "南京路步行街",
+                "name_en": "Nanjing Road",
+                "type": "商圈",
+                "address": "上海市黄浦区南京东路",
+                "rating": 4.4,
+                "opening_hours": "全天",
+                "price": 0,
+                "description": "中国最著名的商业街之一"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.479481,
+                    31.235769
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "上海迪士尼乐园",
+                "name_en": "Shanghai Disneyland",
+                "type": "景点",
+                "address": "上海市浦东新区川沙新镇上海迪士尼度假区",
+                "rating": 4.6,
+                "opening_hours": "09:00-21:00",
+                "price": 399,
+                "description": "中国大陆首座迪士尼主题乐园"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.666667,
+                    31.150000
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "豫园",
+                "name_en": "Yu Garden",
+                "type": "景点",
+                "address": "上海市黄浦区安仁街218号",
+                "rating": 4.3,
+                "opening_hours": "08:30-17:00",
+                "price": 40,
+                "description": "明代古典园林"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.492389,
+                    31.226667
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "上海博物馆",
+                "name_en": "Shanghai Museum",
+                "type": "博物馆",
+                "address": "上海市黄浦区人民大道201号",
+                "rating": 4.7,
+                "opening_hours": "09:00-17:00",
+                "price": 0,
+                "description": "中国古代艺术博物馆"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.475278,
+                    31.229167
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "陆家嘴金融区",
+                "name_en": "Lujiazui Financial District",
+                "type": "商圈",
+                "address": "上海市浦东新区陆家嘴",
+                "rating": 4.5,
+                "opening_hours": "全天",
+                "price": 0,
+                "description": "上海金融中心"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.505556,
+                    31.243056
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "上海科技馆",
+                "name_en": "Shanghai Science and Technology Museum",
+                "type": "博物馆",
+                "address": "上海市浦东新区世纪大道2000号",
+                "rating": 4.6,
+                "opening_hours": "09:00-17:15",
+                "price": 60,
+                "description": "大型综合性科技馆"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.521111,
+                    31.222222
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "田子坊",
+                "name_en": "Tianzifang",
+                "type": "商圈",
+                "address": "上海市黄浦区泰康路210弄",
+                "rating": 4.2,
+                "opening_hours": "全天",
+                "price": 0,
+                "description": "艺术文化创意街区"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.467778,
+                    31.213889
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "新天地",
+                "name_en": "Xintiandi",
+                "type": "商圈",
+                "address": "上海市黄浦区太仓路181弄",
+                "rating": 4.4,
+                "opening_hours": "全天",
+                "price": 0,
+                "description": "时尚购物娱乐区"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.476944,
+                    31.220556
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "上海海洋水族馆",
+                "name_en": "Shanghai Ocean Aquarium",
+                "type": "景点",
+                "address": "上海市浦东新区陆家嘴环路1388号",
+                "rating": 4.5,
+                "opening_hours": "09:00-18:00",
+                "price": 160,
+                "description": "大型海洋水族馆"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.499444,
+                    31.244167
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "静安寺",
+                "name_en": "Jing'an Temple",
+                "type": "景点",
+                "address": "上海市静安区南京西路1686号",
+                "rating": 4.3,
+                "opening_hours": "07:30-17:00",
+                "price": 50,
+                "description": "千年古刹"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.445833,
+                    31.224167
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "上海环球金融中心",
+                "name_en": "Shanghai World Financial Center",
+                "type": "景点",
+                "address": "上海市浦东新区世纪大道100号",
+                "rating": 4.6,
+                "opening_hours": "08:00-23:00",
+                "price": 180,
+                "description": "上海第三高楼"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.501111,
+                    31.234722
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "上海中心大厦",
+                "name_en": "Shanghai Tower",
+                "type": "景点",
+                "address": "上海市浦东新区陆家嘴银城中路501号",
+                "rating": 4.7,
+                "opening_hours": "08:30-22:00",
+                "price": 180,
+                "description": "中国第一高楼"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.501389,
+                    31.233611
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "朱家角古镇",
+                "name_en": "Zhujiajiao Ancient Town",
+                "type": "景点",
+                "address": "上海市青浦区朱家角镇",
+                "rating": 4.3,
+                "opening_hours": "08:30-17:00",
+                "price": 80,
+                "description": "江南水乡古镇"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.048611,
+                    31.113889
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "上海野生动物园",
+                "name_en": "Shanghai Wild Animal Park",
+                "type": "景点",
+                "address": "上海市浦东新区南六公路178号",
+                "rating": 4.5,
+                "opening_hours": "08:00-17:00",
+                "price": 130,
+                "description": "大型野生动物园"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.707222,
+                    31.043333
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "七宝古镇",
+                "name_en": "Qibao Ancient Town",
+                "type": "景点",
+                "address": "上海市闵行区青年路",
+                "rating": 4.2,
+                "opening_hours": "全天",
+                "price": 0,
+                "description": "上海市区古镇"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.353889,
+                    31.148333
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "世纪公园",
+                "name_en": "Century Park",
+                "type": "公园",
+                "address": "上海市浦东新区锦绣路1001号",
+                "rating": 4.4,
+                "opening_hours": "07:00-18:00",
+                "price": 10,
+                "description": "上海最大的城市生态公园"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.553333,
+                    31.220000
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "复旦大学",
+                "name_en": "Fudan University",
+                "type": "大学",
+                "address": "上海市杨浦区邯郸路220号",
+                "rating": 4.6,
+                "opening_hours": "全天",
+                "price": 0,
+                "description": "中国顶尖大学"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.503889,
+                    31.299444
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "上海交通大学",
+                "name_en": "Shanghai Jiao Tong University",
+                "type": "大学",
+                "address": "上海市闵行区东川路800号",
+                "rating": 4.6,
+                "opening_hours": "全天",
+                "price": 0,
+                "description": "中国顶尖大学"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.436111,
+                    31.026667
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "上海浦东国际机场",
+                "name_en": "Shanghai Pudong International Airport",
+                "type": "交通",
+                "address": "上海市浦东新区机场大道",
+                "rating": 4.2,
+                "opening_hours": "全天",
+                "price": 0,
+                "description": "上海主要国际机场"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.805278,
+                    31.143333
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "上海虹桥国际机场",
+                "name_en": "Shanghai Hongqiao International Airport",
+                "type": "交通",
+                "address": "上海市长宁区虹桥路2550号",
+                "rating": 4.1,
+                "opening_hours": "全天",
+                "price": 0,
+                "description": "上海国内主要机场"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.336111,
+                    31.197778
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "上海大剧院",
+                "name_en": "Shanghai Grand Theatre",
+                "type": "文化",
+                "address": "上海市黄浦区人民大道300号",
+                "rating": 4.5,
+                "opening_hours": "根据演出安排",
+                "price": 100,
+                "description": "上海最大的剧院"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.475000,
+                    31.232778
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "上海图书馆",
+                "name_en": "Shanghai Library",
+                "type": "文化",
+                "address": "上海市徐汇区淮海中路1555号",
+                "rating": 4.4,
+                "opening_hours": "08:30-20:30",
+                "price": 0,
+                "description": "上海最大的公共图书馆"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.437500,
+                    31.209167
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "滨江森林公园",
+                "name_en": "Binjiang Forest Park",
+                "type": "公园",
+                "address": "上海市浦东新区高桥镇凌桥高沙滩3号",
+                "rating": 4.3,
+                "opening_hours": "08:00-17:00",
+                "price": 20,
+                "description": "长江口湿地公园"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.592222,
+                    31.363889
+                ]
+            }
+        }
+    ]
+}

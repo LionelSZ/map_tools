@@ -1,0 +1,629 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "黄浦区",
+                "name_en": "Huangpu District",
+                "area_km2": 20.52,
+                "population": 654900,
+                "gdp_billion": 280.5,
+                "government": "上海市黄浦区人民政府",
+                "description": "上海市中心城区，历史文化底蕴深厚"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            121.468056,
+                            31.219444
+                        ],
+                        [
+                            121.512500,
+                            31.219444
+                        ],
+                        [
+                            121.512500,
+                            31.245833
+                        ],
+                        [
+                            121.468056,
+                            31.245833
+                        ],
+                        [
+                            121.468056,
+                            31.219444
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "徐汇区",
+                "name_en": "Xuhui District",
+                "area_km2": 54.76,
+                "population": 1088200,
+                "gdp_billion": 234.8,
+                "government": "上海市徐汇区人民政府",
+                "description": "上海市中心城区，教育文化发达"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            121.410000,
+                            31.160000
+                        ],
+                        [
+                            121.470000,
+                            31.160000
+                        ],
+                        [
+                            121.470000,
+                            31.220000
+                        ],
+                        [
+                            121.410000,
+                            31.220000
+                        ],
+                        [
+                            121.410000,
+                            31.160000
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "长宁区",
+                "name_en": "Changning District",
+                "area_km2": 38.30,
+                "population": 693700,
+                "gdp_billion": 178.3,
+                "government": "上海市长宁区人民政府",
+                "description": "涉外商务区，国际化程度高"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            121.370000,
+                            31.190000
+                        ],
+                        [
+                            121.440000,
+                            31.190000
+                        ],
+                        [
+                            121.440000,
+                            31.240000
+                        ],
+                        [
+                            121.370000,
+                            31.240000
+                        ],
+                        [
+                            121.370000,
+                            31.190000
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "静安区",
+                "name_en": "Jing'an District",
+                "area_km2": 37.37,
+                "population": 1070200,
+                "gdp_billion": 312.6,
+                "government": "上海市静安区人民政府",
+                "description": "商业繁荣，高端商务区"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            121.420000,
+                            31.220000
+                        ],
+                        [
+                            121.470000,
+                            31.220000
+                        ],
+                        [
+                            121.470000,
+                            31.270000
+                        ],
+                        [
+                            121.420000,
+                            31.270000
+                        ],
+                        [
+                            121.420000,
+                            31.220000
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "普陀区",
+                "name_en": "Putuo District",
+                "area_km2": 55.47,
+                "population": 1289800,
+                "gdp_billion": 156.4,
+                "government": "上海市普陀区人民政府",
+                "description": "传统工业区转型发展"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            121.370000,
+                            31.240000
+                        ],
+                        [
+                            121.440000,
+                            31.240000
+                        ],
+                        [
+                            121.440000,
+                            31.300000
+                        ],
+                        [
+                            121.370000,
+                            31.300000
+                        ],
+                        [
+                            121.370000,
+                            31.240000
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "虹口区",
+                "name_en": "Hongkou District",
+                "area_km2": 23.48,
+                "population": 857800,
+                "gdp_billion": 134.2,
+                "government": "上海市虹口区人民政府",
+                "description": "航运金融区，历史风貌区"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            121.470000,
+                            31.250000
+                        ],
+                        [
+                            121.520000,
+                            31.250000
+                        ],
+                        [
+                            121.520000,
+                            31.290000
+                        ],
+                        [
+                            121.470000,
+                            31.290000
+                        ],
+                        [
+                            121.470000,
+                            31.250000
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "杨浦区",
+                "name_en": "Yangpu District",
+                "area_km2": 60.61,
+                "population": 1313400,
+                "gdp_billion": 201.8,
+                "government": "上海市杨浦区人民政府",
+                "description": "知识创新区，高校聚集"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            121.480000,
+                            31.260000
+                        ],
+                        [
+                            121.560000,
+                            31.260000
+                        ],
+                        [
+                            121.560000,
+                            31.330000
+                        ],
+                        [
+                            121.480000,
+                            31.330000
+                        ],
+                        [
+                            121.480000,
+                            31.260000
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "浦东新区",
+                "name_en": "Pudong New Area",
+                "area_km2": 1210.41,
+                "population": 5681500,
+                "gdp_billion": 1527.3,
+                "government": "上海市浦东新区人民政府",
+                "description": "上海现代化建设的缩影和标志"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            121.510000,
+                            31.100000
+                        ],
+                        [
+                            121.850000,
+                            31.100000
+                        ],
+                        [
+                            121.850000,
+                            31.380000
+                        ],
+                        [
+                            121.510000,
+                            31.380000
+                        ],
+                        [
+                            121.510000,
+                            31.100000
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "闵行区",
+                "name_en": "Minhang District",
+                "area_km2": 372.56,
+                "population": 2653700,
+                "gdp_billion": 285.6,
+                "government": "上海市闵行区人民政府",
+                "description": "现代化新城区"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            121.280000,
+                            30.990000
+                        ],
+                        [
+                            121.510000,
+                            30.990000
+                        ],
+                        [
+                            121.510000,
+                            31.180000
+                        ],
+                        [
+                            121.280000,
+                            31.180000
+                        ],
+                        [
+                            121.280000,
+                            30.990000
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "宝山区",
+                "name_en": "Baoshan District",
+                "area_km2": 424.58,
+                "population": 2093900,
+                "gdp_billion": 145.3,
+                "government": "上海市宝山区人民政府",
+                "description": "钢铁工业基地转型发展"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            121.380000,
+                            31.300000
+                        ],
+                        [
+                            121.540000,
+                            31.300000
+                        ],
+                        [
+                            121.540000,
+                            31.510000
+                        ],
+                        [
+                            121.380000,
+                            31.510000
+                        ],
+                        [
+                            121.380000,
+                            31.300000
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "嘉定区",
+                "name_en": "Jiading District",
+                "area_km2": 464.20,
+                "population": 1834300,
+                "gdp_billion": 298.7,
+                "government": "上海市嘉定区人民政府",
+                "description": "汽车城，科技产业发达"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            121.150000,
+                            31.270000
+                        ],
+                        [
+                            121.400000,
+                            31.270000
+                        ],
+                        [
+                            121.400000,
+                            31.490000
+                        ],
+                        [
+                            121.150000,
+                            31.490000
+                        ],
+                        [
+                            121.150000,
+                            31.270000
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "金山区",
+                "name_en": "Jinshan District",
+                "area_km2": 586.05,
+                "population": 825800,
+                "gdp_billion": 110.2,
+                "government": "上海市金山区人民政府",
+                "description": "滨海新城，化工产业基地"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            121.000000,
+                            30.720000
+                        ],
+                        [
+                            121.350000,
+                            30.720000
+                        ],
+                        [
+                            121.350000,
+                            30.950000
+                        ],
+                        [
+                            121.000000,
+                            30.950000
+                        ],
+                        [
+                            121.000000,
+                            30.720000
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "松江区",
+                "name_en": "Songjiang District",
+                "area_km2": 605.64,
+                "population": 1908700,
+                "gdp_billion": 168.5,
+                "government": "上海市松江区人民政府",
+                "description": "历史文化名城，大学城"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            121.090000,
+                            30.950000
+                        ],
+                        [
+                            121.380000,
+                            30.950000
+                        ],
+                        [
+                            121.380000,
+                            31.180000
+                        ],
+                        [
+                            121.090000,
+                            31.180000
+                        ],
+                        [
+                            121.090000,
+                            30.950000
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "青浦区",
+                "name_en": "Qingpu District",
+                "area_km2": 670.14,
+                "population": 1277900,
+                "gdp_billion": 125.8,
+                "government": "上海市青浦区人民政府",
+                "description": "江南水乡，虹桥商务区西延伸带"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            120.900000,
+                            31.050000
+                        ],
+                        [
+                            121.200000,
+                            31.050000
+                        ],
+                        [
+                            121.200000,
+                            31.300000
+                        ],
+                        [
+                            120.900000,
+                            31.300000
+                        ],
+                        [
+                            120.900000,
+                            31.050000
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "奉贤区",
+                "name_en": "Fengxian District",
+                "area_km2": 687.39,
+                "population": 1162400,
+                "gdp_billion": 132.4,
+                "government": "上海市奉贤区人民政府",
+                "description": "南上海新城"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            121.350000,
+                            30.800000
+                        ],
+                        [
+                            121.700000,
+                            30.800000
+                        ],
+                        [
+                            121.700000,
+                            31.050000
+                        ],
+                        [
+                            121.350000,
+                            31.050000
+                        ],
+                        [
+                            121.350000,
+                            30.800000
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "崇明区",
+                "name_en": "Chongming District",
+                "area_km2": 1411.00,
+                "population": 682200,
+                "gdp_billion": 48.6,
+                "government": "上海市崇明区人民政府",
+                "description": "中国第三大岛，生态岛"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            121.300000,
+                            31.500000
+                        ],
+                        [
+                            121.850000,
+                            31.500000
+                        ],
+                        [
+                            121.850000,
+                            31.750000
+                        ],
+                        [
+                            121.300000,
+                            31.750000
+                        ],
+                        [
+                            121.300000,
+                            31.500000
+                        ]
+                    ]
+                ]
+            }
+        }
+    ]
+}
