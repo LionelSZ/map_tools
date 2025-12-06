@@ -1,5 +1,5 @@
 name = "map-tools"
-main = "worker.js"
+main = "dist/worker.js"
 compatibility_date = "2025-01-01"
 
 [assets]
