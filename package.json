@@ -20,5 +20,8 @@
         "@vitejs/plugin-vue": "^5.0.0",
         "sass": "^1.94.2",
         "vite": "^5.0.0"
+    },
+    "engines": {
+        "node": ">=20"
     }
 }
