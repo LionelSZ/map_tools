@@ -1,7 +1,7 @@
 name = "map-tools"
+main = "worker.js"
 compatibility_date = "2025-01-01"
 
-[site]
-bucket = "./dist"
-entry-point = "."
-
+[assets]
+directory = "dist"
+binding = "ASSETS"
