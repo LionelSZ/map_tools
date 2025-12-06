@@ -1,0 +1,77 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "东方明珠",
+                "type": "Point"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.499809,
+                    31.239666
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "外滩景观大道",
+                "type": "LineString"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        121.485634,
+                        31.233488
+                    ],
+                    [
+                        121.488123,
+                        31.236789
+                    ],
+                    [
+                        121.490569,
+                        31.241234
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "陆家嘴中心绿地",
+                "type": "Polygon"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            121.503456,
+                            31.236789
+                        ],
+                        [
+                            121.506789,
+                            31.236789
+                        ],
+                        [
+                            121.506789,
+                            31.233456
+                        ],
+                        [
+                            121.503456,
+                            31.233456
+                        ],
+                        [
+                            121.503456,
+                            31.236789
+                        ]
+                    ]
+                ]
+            }
+        }
+    ]
+}

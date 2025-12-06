@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Map Toolbox</title>
+    <script src="i18n.js"></script>
+    <style>
+        :root {
+            --primary-bg: #f0f2f5;
+            --sidebar-bg: #ffffff;
+            --text-color: #1a1a1a;
+            --accent-color: #007cbf;
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+            background-color: var(--primary-bg);
+            display: flex;
+            height: 100vh;
+            overflow: hidden;
+        }
+
+        .sidebar {
+            width: 260px;
+            background: var(--sidebar-bg);
+            border-right: 1px solid #e0e0e0;
+            display: flex;
+            flex-direction: column;
+            padding: 20px;
+            box-shadow: 2px 0 10px rgba(0, 0, 0, 0.02);
+            z-index: 10;
+        }
+
+        .logo {
+            font-size: 20px;
+            font-weight: 700;
+            color: var(--text-color);
+            margin-bottom: 30px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .logo span {
+            color: var(--accent-color);
+        }
+
+        .lang-switcher {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            background: white;
+            border: 1px solid #e0e0e0;
+            border-radius: 8px;
+            padding: 8px 12px;
+            cursor: pointer;
+            font-size: 14px;
+            display: flex;
+            align-items: center;
+            gap: 6px;
+            transition: all 0.2s;
+            z-index: 100;
+        }
+
+        .lang-switcher:hover {
+            background: #f5f7fa;
+            border-color: var(--accent-color);
+        }
+
+        .nav-item {
+            padding: 12px 16px;
+            margin-bottom: 8px;
+            border-radius: 8px;
+            cursor: pointer;
+            color: #555;
+            font-weight: 500;
+            transition: all 0.2s ease;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .nav-item:hover {
+            background-color: #f5f7fa;
+            color: var(--accent-color);
+        }
+
+        .nav-item.active {
+            background-color: #e6f4fa;
+            color: var(--accent-color);
+        }
+
+        .main-content {
+            flex: 1;
+            position: relative;
+            background: white;
+        }
+
+        iframe {
+            width: 100%;
+            height: 100%;
+            border: none;
+            display: block;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="lang-switcher" onclick="toggleLanguage()">
+        <span>🌐</span>
+        <span id="langText">中文</span>
+    </div>
+
+    <div class="sidebar">
+        <div class="logo">
+            <span>◆</span> <span id="toolboxTitle">工具箱</span>
+        </div>
+
+        <div class="nav-item active" onclick="loadTool('mapbox_locator.html', this)">
+            <span>📍</span> <span id="nav1">Mapbox 定位器</span>
+        </div>
+        <div class="nav-item" onclick="loadTool('geojson_viewer.html', this)">
+            <span>🗺️</span> <span id="nav2">GeoJSON 查看器</span>
+        </div>
+        <div class="nav-item" onclick="showMoreTools()">
+            <span>🔧</span> <span id="nav3">更多工具...</span>
+        </div>
+    </div>
+
+    <div class="main-content">
+        <iframe id="tool-frame" src="mapbox_locator.html"></iframe>
+    </div>
+
+    <script>
+        function loadTool(url, element) {
+            document.getElementById('tool-frame').src = url;
+
+            // Update active state
+            document.querySelectorAll('.nav-item').forEach(el => el.classList.remove('active'));
+            if (element) element.classList.add('active');
+        }
+
+        function showMoreTools() {
+            alert(i18n.t('moreToolsMsg'));
+        }
+
+        function toggleLanguage() {
+            const newLang = i18n.getLanguage() === 'zh' ? 'en' : 'zh';
+            i18n.setLanguage(newLang);
+            updateUI();
+
+            // Reload iframe to update language
+            const iframe = document.getElementById('tool-frame');
+            iframe.src = iframe.src;
+        }
+
+        function updateUI() {
+            const lang = i18n.getLanguage();
+            document.getElementById('langText').textContent = lang === 'zh' ? '中文' : 'EN';
+            document.getElementById('toolboxTitle').textContent = i18n.t('toolbox');
+            document.getElementById('nav1').textContent = i18n.t('mapboxLocator');
+            document.getElementById('nav2').textContent = i18n.t('geojsonViewer');
+            document.getElementById('nav3').textContent = i18n.t('moreTools');
+        }
+
+        // Initialize UI on load
+        window.addEventListener('load', updateUI);
+    </script>
+
+</body>
+
+</html>
